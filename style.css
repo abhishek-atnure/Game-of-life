@@ -1,0 +1,61 @@
+body {
+  padding: 20px;
+  background-color: #444;
+}
+
+#gridContainer {
+  padding-bottom: 10px;
+}
+
+table {
+  /* background-color: #c5d6c6; */
+  background-color: white;
+  border-spacing: 0;
+}
+
+td {
+  border: 1px solid #e4daf5;
+  border-radius: 3px;
+  width: 15px;
+  height: 15px;
+}
+
+span {
+  color: white;
+}
+
+.controls {
+  display: flex;
+}
+
+.show-state {
+  margin-left: 60px;
+}
+
+#start,
+#clear,
+#random,
+#find-state {
+  padding: 0.75em;
+  border: none;
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+td.dead {
+  background-color: transparent;
+}
+
+td.live {
+  background-color: black;
+  border-radius: 10px;
+}
+
+#find-state {
+  margin-left: 14px;
+}
+input {
+  height: 22px;
+  width: 50px;
+}
