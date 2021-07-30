@@ -1,6 +1,6 @@
 
 let rows = 38;
-let cols = 100;
+let cols = 70;
 
 let playing = false;
 
